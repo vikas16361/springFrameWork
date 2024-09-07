@@ -1,0 +1,37 @@
+package com.vikas.controller;
+
+import java.util.*;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.vikas.model.UserDto;
+
+@Controller
+public class UserRegistrationController {
+	@Autowired
+	@RequestMapping("/registration")
+	public String register(@ModelAttribute("objreg") UserDto reg) {
+		return "register";
+	}
+	@ModelAttribute("countryList")
+	public Map<String,String> countries(){
+		//get db
+		Map<String,String> map = new HashMap<String,String>();
+		map.put("IND","India");
+		map.put("PAK","Paksitan");
+		map.put("BAN","Bangladesh");
+		map.put("SRL","SriLanka");
+		map.put("CHN","China");
+		return map;
+	}
+	@RequestMapping("/processRegistration")
+	public ModelAndView process(@ModelAttribute("objreg") UserDto user) {
+		System.out.println("Hiiii....");
+		return new ModelAndView("register","objreg",new UserDto("failed !!"));
+	}
+}

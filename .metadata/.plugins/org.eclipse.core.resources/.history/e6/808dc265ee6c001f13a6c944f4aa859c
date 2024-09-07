@@ -1,0 +1,12 @@
+package com.vikas.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class UserRegistrationController {
+	@RequestMapping("/registration")
+	public String register() {
+		return "register";
+	}
+}

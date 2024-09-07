@@ -1,0 +1,50 @@
+package com.vikas.model;
+
+public class UserDto {
+	private String name;
+	private String userName;
+	private String password;
+	private String country;
+	private byte gender;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public byte getGender() {
+		return gender;
+	}
+
+	public void setGender(byte gender) {
+		this.gender = gender;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	
+}

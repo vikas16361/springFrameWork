@@ -1,0 +1,6 @@
+package com.vikas.model;
+
+public class loginDto {
+ private String username;
+ private String password;
+}

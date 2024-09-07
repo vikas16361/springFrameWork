@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Sep 07 19:04:50 IST 2024
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\vk769\\.m2\\repository\\org\\springframework\\spring-web\\5.3.18\\spring-web-5.3.18.jar=WEB-INF/lib/spring-web-5.3.18.jar
+org.eclipse.jst.j2ee.server\:Core=WEB-INF/lib/Core-0.0.1-SNAPSHOT.jar

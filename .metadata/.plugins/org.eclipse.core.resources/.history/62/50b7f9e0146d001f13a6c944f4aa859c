@@ -1,0 +1,6 @@
+package com.vikas.dao;
+
+public interface UserDAO {
+	public int registrationUser();
+	
+}

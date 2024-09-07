@@ -1,0 +1,5 @@
+package com.vikas.dao;
+
+public class UserDAOImpl {
+
+}

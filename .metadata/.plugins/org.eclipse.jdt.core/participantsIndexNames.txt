@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\vk769\Documents\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\111529394.index
+\SpringWeb\src\main\java
+C:\Users\vk769\Documents\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\865076273.index
+\SpringContactApp\src\main\java
+C:\Users\vk769\Documents\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1802725293.index
+\SpringWeb\src\main\resources

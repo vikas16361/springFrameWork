@@ -1,0 +1,23 @@
+package com.vikas.dao;
+
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.vikas.model.UserDto;
+
+public class UserDAOImpl implements UserDAO {
+
+	JdbcTemplate jdbc;
+	@Override
+	public int registrationUser(UserDto user) {
+		try {
+			jdbc.update("",user.getName())
+		}catch(SQLException e){
+			System.out.println(e);
+			return 0;
+		}
+		return 0;
+	}
+
+}

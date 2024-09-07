@@ -1,0 +1,29 @@
+package com.vikas.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.vikas.model.UserDto;
+
+@Controller
+public class UserRegistrationController {
+	@RequestMapping("/registration")
+	public String register(@ModelAttribute("objreg") UserDto reg) {
+		return "register";
+	}
+	@ModelAttribute("countryList")
+	public Map<String,String> countries(){
+		//get db
+		Map<String,String> map = new HashMap<String,String>;
+		map.put("IND","India");
+		map.put("PAK","Paksitan");
+		map.put("BAN","Bangladesh");
+		map.put("SRL","SriLanka");
+		map.put("CHN","China");
+		return map;
+	}
+}

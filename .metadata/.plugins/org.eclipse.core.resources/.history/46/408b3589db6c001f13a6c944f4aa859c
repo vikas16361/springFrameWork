@@ -1,0 +1,5 @@
+package com.vikas.config;
+
+public class WebXmlConfig {
+
+}

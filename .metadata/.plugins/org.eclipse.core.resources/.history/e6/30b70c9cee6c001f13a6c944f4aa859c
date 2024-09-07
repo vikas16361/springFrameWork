@@ -1,0 +1,15 @@
+package com.vikas.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.vikas.model.UserDto;
+
+@Controller
+public class UserRegistrationController {
+	@RequestMapping("/registration")
+	public String register(@ModelAttribute("obreg") UserDto reg) {
+		return "register";
+	}
+}

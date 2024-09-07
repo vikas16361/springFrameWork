@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.support.XmlWebApplicationContext"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.loader.WebappClassLoader"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer"/>
+    <fullyQualifiedTypeName name="com.vikas.config.SpringApplicationConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.vikas.model.UserDto"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.vikas.dao.UserDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.vikas.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+</qualifiedTypeNameHistroy>
